@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hands ON</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, th, td {
+            font-family: Arial;
+            font-style: italic;
+            border: 2px solid red;
+        }
+        form {
+            font-family: Arial;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <form class="form-horizontal" action="/action_page.php">
+                <div class="form-group">
+                    <label class="control-label col-sm-2"  for="First Name">First Name</label>
+                    <div class="col-sm-10">
+                        <input type="first name" class="form-control" id="First Name" placeholder="First Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2"  for="Last Name">Last Name</label>
+                    <div class="col-sm-10">
+                        <input type="last name" class="form-control" id="Last Name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2"  for="Phone Number">Phone Number</label>
+                    <div class="col-sm-10">
+                        <input type="phone number" class="form-control" id="Phone Number" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2"  for="Email">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="Email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                            <label><input type="checkbox"> Remember me</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group"> 
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-6">
+            <table class="table table-hover">
+                <thead>
+                    <tr class="active">
+                        <th>Row</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Occupation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="primnary">
+                        <td>1</td>
+                        <td>Sasha Smith</td>
+                        <td>26</td>
+                        <td>Paralegal</td>
+                        <button type="button" class="btn btn-prinary">Primary</button>
+                    </tr>
+                    <tr class="success">
+                        <td>2</td>
+                        <td>Thomas McMurphy</td>
+                        <td>44</td>
+                        <td>Engineer</td>
+                        <button type="button" class="btn btn-success">Success</button>
+                    </tr>
+                    <tr class="danger">
+                        <td>3</td>
+                        <td>Soledad Evans</td>
+                        <td>37</td>
+                        <td>Chef</td>
+                        <button type="button" class="btn btn-danger">Danger</button>
+                    </tr>
+                    <tr class="warning">
+                        <td>4</td>
+                        <td>Naheem Livingston</td>
+                        <td>22</td>
+                        <td>Accountant</td>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<ul class="nav nav-tabs">
+        <li class="active">
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Profile</a>
+        </li>
+        <li>
+            <a href="#">Messages</a>
+        </li>
+    <li class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Search
+            <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+            <li>
+                <a href="#">Google</a>
+            </li>
+            <li>
+                <a href="#">Bing</a>
+            </li>
+            <li>
+                <a href="#">Firefox</a>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+</html>
